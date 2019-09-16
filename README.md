@@ -25,9 +25,9 @@ git clone https://github.com/boai/BACodeSnippet.git ./
 
 ## 快捷键汇总
 
-
-
 ##### 2019-09-16 
+
+- `ba_init_cell` - 快速创建 自定义 UITableViewCell 的 init 方法
 
 * `ba_ios11_bottom` - 快速创建 ios 11 bottom 布局适配
 * `ba_lazy` - 快速创建 一个懒加载
