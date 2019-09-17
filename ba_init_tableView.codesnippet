@@ -22,7 +22,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     cell.backgroundColor = UIColor.clearColor;
-    cell.selectionStyle = UITableViewCellSeparatorStyleNone;
+    cell.selectionStyle = UITableViewCellSelectionStyleDefault;
     cell.textLabel.text = self.dataArray[indexPath.row];
     
     return cell;
