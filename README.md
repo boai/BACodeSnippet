@@ -25,6 +25,10 @@ git clone https://github.com/boai/BACodeSnippet.git ./
 
 ## 快捷键汇总
 
+##### 2019-09-17 
+
+- `ba_init_tableView` - 快速创建 UITableView 
+
 ##### 2019-09-16 
 
 - `ba_init_cell` - 快速创建 自定义 UITableViewCell 的 init 方法
