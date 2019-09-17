@@ -17,7 +17,8 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        
+        [self initUI];
+        [self initData];
     }
     return self;
 }
@@ -28,7 +29,13 @@
 
 - (void)initData {
     
-}</string>
+}
+
+
+
+#pragma mark - setter, getter
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AA5021D6-9A3A-44E9-9E7C-7839CB81C215</string>
 	<key>IDECodeSnippetLanguage</key>
