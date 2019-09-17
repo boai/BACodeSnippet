@@ -9,10 +9,17 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
+	<string>@interface &lt;#class name#&gt; ()
+
+@end
+
+@implementation &lt;#class name#&gt;
+
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self initUI];
+        [self initData];
     }
     return self;
 }
@@ -24,6 +31,8 @@
 - (void)initData {
     
 }
+
+#pragma mark - setter, getter
 
 </string>
 	<key>IDECodeSnippetIdentifier</key>

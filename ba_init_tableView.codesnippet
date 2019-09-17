@@ -21,7 +21,8 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
-    
+    cell.backgroundColor = UIColor.clearColor;
+    cell.selectionStyle = UITableViewCellSeparatorStyleNone;
     cell.textLabel.text = self.dataArray[indexPath.row];
     
     return cell;
@@ -68,6 +69,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
