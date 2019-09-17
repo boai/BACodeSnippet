@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ba_view_init</string>
+	<string>ba_init_view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -33,7 +33,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>- initView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ba_view_init</string>
+	<string>ba_init_view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
